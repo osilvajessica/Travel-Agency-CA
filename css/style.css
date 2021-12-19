@@ -1,0 +1,228 @@
+/* CSS Style Sheet for the Traveler Travel Agency Website Homepage
+Created By Jessica Oliveira Silva - x20193688*/
+/* */
+
+/*Styles the Body of the Web page */
+
+body
+{
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Comic Sans MS";
+  color: #001136;
+}
+
+/*Styles the Background Image with CSS prefixes so code works properly with all the browsers.*/
+#background
+{
+	background:url(../images1/blue-sky-background.png) no-repeat center center fixed;;
+	height: 100%;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Styles the Header of the Webpage */
+
+#Header
+{
+	align: center;
+	padding-left: 220px;
+}
+
+/*Styles the Nav bar */
+
+nav
+{
+	height:40px;
+	align: center;
+	padding-left: 220px;
+}
+
+/* Styles the Buttons within Teh nav bar */
+
+.buttons
+{
+	height:40px;
+	float:left;
+	padding-top: 20px;
+}
+
+/* Styles the Main Section of Content */
+
+article
+{
+	width: 850px;
+	height: 550px;
+	float: left;
+	padding-left: 50px;
+	padding-top: 50px;
+	background-position: 0% 0%;
+	text-align: left;
+	font-family: "Comic Sans MS";
+	font-size: 20px;
+	color: #001136;
+}
+
+/* Styles for Links */
+
+a:visited
+{
+		color: #001136;
+	  background-color: transparent;
+	  text-decoration: none;
+}
+
+/* Styles for Links */
+
+a:hover
+{
+		color: #001136;
+	  background-color: transparent;
+	  text-decoration: none;
+}
+
+/* Styles for Pictures Inside the carrousel */
+
+.carousel-inner img
+{
+  width: 850px;
+  height: 450px;
+}
+
+/* Styles Box With Stole Link and Image */
+
+#traveladaptor
+{
+	float: left;
+	padding-left: 10px;
+}
+
+/* Styles Box With Stole Link and Image */
+
+#latestbooks
+{
+	float: right;
+	padding-right: 100px;
+}
+
+/* Styles the About us Page text Section in The Article */
+
+.aboutus
+{
+	font-size: 15pt;
+	font-weight: 300;
+}
+
+/* Styles the About us Page text Section in The Article */
+
+#aboutus
+{
+	padding-top: 20px;
+	text-align: center;
+}
+
+/* Styles the Blog Page image Section in The Article */
+
+#rio
+{
+	padding-left: 20px;
+}
+
+/* Styles the Blog Page link in the Text in The Article */
+
+#traveler
+{
+	color: #0050FF;
+}
+
+/* Styles the Blog Page image Section in The Article */
+
+#rio1
+{
+	padding-left: 20px;
+}
+
+/* Styles the Aside Section With the Contact form */
+
+aside
+{
+	width:350px;
+	height:550px;
+	float: right;
+	padding-right: 50px;
+	background-position: right;
+	background-blend-mode: color;
+}
+
+/*Style the Size and color of the Form*/
+Form
+{
+	height: 420px;
+	width: 320px;
+	text-align: left;
+	font-family: "Comic Sans MS";
+	font-size: 20px;
+	color: #001136;
+	float: left;
+	padding-top: 15px;
+
+}
+
+/* Style all input fields */
+input
+{
+	width: 100%;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	align-content: right;
+}
+
+/* Style the submit button */
+input[type=submit]
+{
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* Style for When moving the mouse over the submit button, add a darker green color */
+input[type = submit]:hover
+{
+	background-color: #45a049;
+}
+
+/* Styles the Footer Section of the Page */
+
+#footer
+{
+	height:80px;
+	padding-left: 50px;
+	clear:both;
+	font-size: 15pt;
+
+}
+
+.find
+{
+	height:80px;
+	padding-bottom: 220px;
+	float: left;
+}
+
+.copyright
+{
+	height:80px;
+	padding-bottom: 220px;
+	float: right;
+	padding-right: 50px;
+}

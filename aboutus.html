@@ -1,0 +1,145 @@
+<!--Traveler Travel Agency Website Homepage
+Created By Jessica Oliveira Silva - x20193688-->
+<!-- -->
+<!DOCTYPE html> <!-- HTML5 doctype -->
+
+<html lang="en"> <!-- HTML5 opening HTML tag with language.-->
+
+	<head>
+
+		<meta charset="UTF-8"> <!-- HTML5 charset -->
+
+			<title>Home</title>
+
+			<!-- Java Script Link -->
+
+			<link href="css/style.css" rel="stylesheet" type="text/css">
+
+			<!-- Java Script Link -->
+
+			<script type="text/javascript" src="Traveler.js"></script>
+
+	</head>
+
+	<!-- Body Wrapper Div to Style Background image-->
+
+	<div id="background">
+
+		<!-- Traveler Logo with On Load method with link to Homepage linked to the Header -->
+
+		<body onload="('images1/Traveler Header 960x200 Rollover.png')">
+
+			<header><a href="index.html"><img src="images1/Traveler Header 960x200.png" alt="Go to Home Page " width="960" height="200" id="Header"></a></header>
+
+			<!--Navigation Buttons  -->
+
+			<nav>
+
+				<div class="buttons">
+					<a href="index.html"></a>
+					<a href="index.html"><img src="images/home.png" alt="Go to Home Page" name="home" height="40" border="0"></a>
+
+					<a href="blog.html"></a>
+					<a href="blog.html"><img src="images/blog.png" alt="Go to Blog" height="40" id="blog"></a>
+
+					<a href="places.html"></a>
+					<a href="places.html"><img src="images/places.png" alt="Go to Places" name="places" height="40" border="0"></a>
+
+					<a href="store.html"></a>
+					<a href="store.html"><img src="images/store.png" alt="Go to Store" name="store" height="40" border="0"></a>
+
+					<a href="aboutus.html"></a>
+					<a href="aboutus.html"><img src="images/aboutus.png" alt="Go to About Us" name="aboutus" height="40" border="0"></a>
+				</div>
+
+			</nav>
+
+			<!-- Page article Section With Main Webpage Content -->
+
+			<article class="aboutus">
+
+				<div id="aboutus">
+
+					<p>
+						Anybody anywhere should be able to have access to information about the place
+						where they would like to go. Traveler is going to take you there, we provide
+						specialized Packages with an excusive Insider view of the best places in some cities
+						that I've visited myself and another few cities, that not only me but All Traveler Helpers,
+						Have been. Of Course We can Sort you out with a personalized Package to Any Location On the Globe.
+					</p>
+
+				  <p>
+						Our goal is to provide a unique Travel Expert service to every person that comes to us,
+						During this Difficult times, You Need different types of services, Like specialized Travel and Health Insurance
+						to make Your holidays the most safe and pleasurable experience and we promisse to give you the best memories with your family and loved ones.
+					</p>
+
+				</div>
+
+				<div id="places"><a href= "places.html" target="blank"><h2>Click Here and Travel with us Today!</h2></a></div>
+
+				<div id="choose"><p>Choose one of our prime locations or tell us where you want to go and we will take you there</p></div>
+
+			</article>
+
+			<!-- Page aside Section With The Contact Form -->
+
+			<aside>
+
+				<div id = "Form">
+
+					<!-- Contact Details Form-->
+
+					<form name = "contact" onsubmit = "return contactForm()" method = "post">
+
+						Get In Toutch!
+
+						<br>
+
+						Name: <input type = "text" name = "name" placeholder = "Your name...">
+
+						<br>
+
+						Email: <input type = "email" name = "email" placeholder = "Your Email xxxxx@xxxxx.xxx" pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+
+						<br>
+
+						Phone: <input type = "tel" name = "phone" placeholder = "Your Phone +000 00 000 0000" pattern = "^\+(?:[0-9] ?){6,14}[0-9]$">
+
+						<br>
+
+						Message: <input type = "text" name = "message" placeholder="Tell us About your Holiday...">
+
+						<br>
+
+						<input type = "submit" value = "Submit">
+
+					</form>
+
+				</div>
+
+			</aside>
+
+			<footer>
+
+				<!-- Page Footer Section With Social Media and Copyright Content -->
+
+				<div id = "footer">
+
+					<a href="https://www.facebook.com/jessica2105" target="new" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('facebook','','images1/facebookbutton.png',1)"><img src="images1/facebookbutton.png"  alt="Facebook" width="80" height="50" id="facebook"></a>
+
+					<a href="https://twitter.com/osilvajessica" target="new" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('twitter','','images1/twitterbutton.png',1)"><img src="images1/twitterbutton.png"  alt="Twitter " width="80" height="50" id="twitter"></a>
+
+					<a href="https://www.instagram.com/j_jjessica" target="new" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Instagram','','images1/instagrambutton.png',1)"><img src="images1/instagrambutton.png" alt="Instagram" width="80" height="50" id="Instagram"></a>
+
+					<p class = "copyright"> &copy; 2017-2022 Traveler! All Rights Reserved.</p>
+
+				</div>
+
+			</footer>
+
+		</body>
+
+	</div>
+
+</html>

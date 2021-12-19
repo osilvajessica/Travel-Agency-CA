@@ -1,0 +1,132 @@
+<!--Traveler Travel Agency Website Homepage
+Created By Jessica Oliveira Silva - x20193688-->
+<!-- -->
+<!DOCTYPE html> <!-- HTML5 doctype -->
+
+<html lang="en"> <!-- HTML5 opening HTML tag with language.-->
+
+	<head>
+
+		<meta charset="UTF-8"> <!-- HTML5 charset -->
+
+			<title>Home</title>
+
+			<!-- Java Script Link -->
+
+			<link href="css/style.css" rel="stylesheet" type="text/css">
+
+			<!-- Java Script Link -->
+
+			<script type="text/javascript" src="Traveler.js"></script>
+
+	</head>
+
+	<!-- Body Wrapper Div to Style Background image-->
+
+	<div id="background">
+
+		<!-- Traveler Logo with On Load method with link to Homepage linked to the Header -->
+
+		<body onload="('images1/Traveler Header 960x200 Rollover.png')">
+
+			<header><a href="index.html"><img src="images1/Traveler Header 960x200.png" alt="Go to Home Page " width="960" height="200" id="Header"></a></header>
+
+			<!--Navigation Buttons  -->
+
+			<nav>
+
+				<div class="buttons">
+					<a href="index.html"></a>
+					<a href="index.html"><img src="images/home.png" alt="Go to Home Page" name="home" height="40" border="0"></a>
+
+					<a href="blog.html"></a>
+					<a href="blog.html"><img src="images/blog.png" alt="Go to Blog" height="40" id="blog"></a>
+
+					<a href="places.html"></a>
+					<a href="places.html"><img src="images/places.png" alt="Go to Places" name="places" height="40" border="0"></a>
+
+					<a href="store.html"></a>
+					<a href="store.html"><img src="images/store.png" alt="Go to Store" name="store" height="40" border="0"></a>
+
+					<a href="aboutus.html"></a>
+					<a href="aboutus.html"><img src="images/aboutus.png" alt="Go to About Us" name="aboutus" height="40" border="0"></a>
+				</div>
+
+			</nav>
+
+			<!-- Page article Section With Main Webpage Content -->
+
+			<article>
+
+				<h1><strong><i>Taking Off soon? Find all your Travel essentials here:</i></strong></h1>
+
+				<div id="traveladaptor"><h3>Travel Adapters:</h3>
+					<a href="https://www.amazon.co.uk/dp/B07VMRG9W2/ref=sspa_dk_detail_5?psc=1&pd_rd_i=B07VMRG9W2&pd_rd_w=SqYBB&pf_rd_p=828203ef-618e-4303-a028-460d6b615038&pd_rd_wg=b80kN&pf_rd_r=47EQJZ4PS4VEZYQY9CFY&pd_rd_r=eaccf159-3f11-4593-b1d7-f94cf096fda3&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFUWktKSjZCWkpaSjAmZW5jcnlwdGVkSWQ9QTA0MzU3NDdRNEdXWjlUUE8zRlQmZW5jcnlwdGVkQWRJZD1BMDg2MzYwOTJFR1c2RENZQVVHSFMmd2lkZ2V0TmFtZT1zcF9kZXRhaWwmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl"
+					target="new" ><img src="images1/traveladapter.png" width="200" height="200" alt=""/></a></div>
+
+					<div id="latestbooks"><h3>The Latest Travel Books:</h3>
+						<a href="https://www.amazon.co.uk/Lonely-Planets-Best-Travel-2021/dp/1788689194/ref=sr_1_1?keywords=Lonely+Planet%27s+Best+in+Travel&qid=1639858878&sr=8-1"
+						target="new"><i><img src="images1/latestbooks.png" width="200" height="200" alt=""/></i></a></div>
+
+			</article>
+
+			<!-- Page aside Section With The Contact Form -->
+
+			<aside>
+
+				<div id = "Form">
+					<!-- Contact Details Form-->
+
+					<form name = "contact" onsubmit = "return contactForm()" method = "post">
+
+						Get In Toutch!
+
+						<br>
+
+						Name: <input type = "text" name = "name" placeholder = "Your name...">
+
+						<br>
+
+						Email: <input type = "email" name = "email" placeholder = "Your Email xxxxx@xxxxx.xxx" pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+
+						<br>
+
+						Phone: <input type = "tel" name = "phone" placeholder = "Your Phone +000 00 000 0000" pattern = "^\+(?:[0-9] ?){6,14}[0-9]$">
+
+						<br>
+
+						Message: <input type = "text" name = "message" placeholder="Tell us About your Holiday...">
+
+						<br>
+
+						<input type = "submit" value = "Submit">
+
+					</form>
+
+				</div>
+
+			</aside>
+
+			<footer>
+
+				<!-- Page Footer Section With Social Media and Copyright Content -->
+
+				<div id = "footer">
+
+					<a href="https://www.facebook.com/jessica2105" target="new" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('facebook','','images1/facebookbutton.png',1)"><img src="images1/facebookbutton.png"  alt="Facebook" width="80" height="50" id="facebook"></a>
+
+					<a href="https://twitter.com/osilvajessica" target="new" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('twitter','','images1/twitterbutton.png',1)"><img src="images1/twitterbutton.png"  alt="Twitter " width="80" height="50" id="twitter"></a>
+
+					<a href="https://www.instagram.com/j_jjessica" target="new" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Instagram','','images1/instagrambutton.png',1)"><img src="images1/instagrambutton.png" alt="Instagram" width="80" height="50" id="Instagram"></a>
+
+					<p class = "copyright"> &copy; 2017-2022 Traveler! All Rights Reserved.</p>
+
+				</div>
+
+			</footer>
+
+		</body>
+
+	</div>
+
+</html>

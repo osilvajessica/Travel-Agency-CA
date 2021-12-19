@@ -1,0 +1,131 @@
+<!--Traveler Travel Agency Website Homepage
+Created By Jessica Oliveira Silva - x20193688-->
+<!-- -->
+<!DOCTYPE html> <!-- HTML5 doctype -->
+
+<html lang="en"> <!-- HTML5 opening HTML tag with language.-->
+
+	<head>
+
+		<meta charset="UTF-8"> <!-- HTML5 charset -->
+
+			<title>Home</title>
+
+			<!-- Java Script Link -->
+
+			<link href="css/style.css" rel="stylesheet" type="text/css">
+
+			<!-- Java Script Link -->
+
+			<script type="text/javascript" src="Traveler.js"></script>
+
+	</head>
+
+	<!-- Body Wrapper Div to Style Background image-->
+
+	<div id="background">
+
+		<!-- Traveler Logo with On Load method with link to Homepage linked to the Header -->
+
+		<body onload="('images1/Traveler Header 960x200 Rollover.png')">
+
+			<header><a href="index.html"><img src="images1/Traveler Header 960x200.png" alt="Go to Home Page " width="960" height="200" id="Header"></a></header>
+
+			<!--Navigation Buttons  -->
+
+			<nav>
+
+				<div class="buttons">
+					<a href="index.html"></a>
+					<a href="index.html"><img src="images/home.png" alt="Go to Home Page" name="home" height="40" border="0"></a>
+
+					<a href="blog.html"></a>
+					<a href="blog.html"><img src="images/blog.png" alt="Go to Blog" height="40" id="blog"></a>
+
+					<a href="places.html"></a>
+					<a href="places.html"><img src="images/places.png" alt="Go to Places" name="places" height="40" border="0"></a>
+
+					<a href="store.html"></a>
+					<a href="store.html"><img src="images/store.png" alt="Go to Store" name="store" height="40" border="0"></a>
+
+					<a href="aboutus.html"></a>
+					<a href="aboutus.html"><img src="images/aboutus.png" alt="Go to About Us" name="aboutus" height="40" border="0"></a>
+				</div>
+
+			</nav>
+
+			<!-- Page article Section With Main Webpage Content -->
+
+			<article>
+
+				<h3 align="center">Brazil! A charming South American Giant!</h3>
+
+				<div id="rio"><img src="images1/rio.png" width="550" height="100" alt=""/></div>
+
+				<p style="font-size: 12pt" align="center"> On this special blog post I'm going to talk about my home country Brazil! I was born and raised in Rio De Janeiro one of the most beautiful states of the country, I left to follow my dreams when I was 22, and I has been amazing!</p>
+
+				<p style="font-size: 12pt" align="center">The first time I took my Husband to Brazil we had the time of our lives! That summer was incredible and we will never forget the happy moments we had there :) Was during that trip that we came up with the idea to create <b><i><a href="index.html" target="new" id="traveler">Traveler!</a></i></b> We wanted to make that idea happen, that dream come true, to every one that is or is planing to be on their holidays. So they can enjoy this sunset as much as we did!</p>
+
+				<div id="rio1"><img src="images1/rio1.png" width="550" height="100" alt=""/></div>
+
+			</article>
+
+			<!-- Page aside Section With The Contact Form -->
+			<aside>
+
+				<div id = "Form">
+
+					<!-- Contact Details Form-->
+
+					<form name = "contact" onsubmit = "return contactForm()" method = "post">
+
+						Get In Toutch!
+
+						<br>
+
+						Name: <input type = "text" name = "name" placeholder = "Your name...">
+
+						<br>
+
+						Email: <input type = "email" name = "email" placeholder = "Your Email xxxxx@xxxxx.xxx" pattern = "[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+
+						<br>
+
+						Phone: <input type = "tel" name = "phone" placeholder = "Your Phone +000 00 000 0000" pattern = "^\+(?:[0-9] ?){6,14}[0-9]$">
+
+						<br>
+
+						Message: <input type = "text" name = "message" placeholder="Tell us About your Holiday...">
+
+						<br>
+
+						<input type = "submit" value = "Submit">
+
+					</form>
+
+				</div>
+
+			</aside>
+
+			<footer>
+				<!-- Page Footer Section With Social Media and Copyright Content -->
+
+				<div id = "footer">
+
+					<a href="https://www.facebook.com/jessica2105" target="new" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('facebook','','images1/facebookbutton.png',1)"><img src="images1/facebookbutton.png"  alt="Facebook" width="80" height="50" id="facebook"></a>
+
+					<a href="https://twitter.com/osilvajessica" target="new" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('twitter','','images1/twitterbutton.png',1)"><img src="images1/twitterbutton.png"  alt="Twitter " width="80" height="50" id="twitter"></a>
+
+					<a href="https://www.instagram.com/j_jjessica" target="new" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Instagram','','images1/instagrambutton.png',1)"><img src="images1/instagrambutton.png" alt="Instagram" width="80" height="50" id="Instagram"></a>
+
+					<p class = "copyright"> &copy; 2017-2022 Traveler! All Rights Reserved.</p>
+
+				</div>
+
+			</footer>
+
+		</body>
+
+	</div>
+
+</html>
